@@ -19,3 +19,4 @@ alias gcm='git commit -m '
 alias gl="git log --graph --date=format:'%H:%M %z | %a %d %b %Y' --pretty=format:'%C(auto)%h%d%n%C(green)%ad %C(red)%ar %C(cyan)<%an>%n%n%w(120,4,4)%C(auto)%s%n%n'"
 alias g='git init '
 alias gb='git branch '
+alias cghr='gh repo create $1 --public --source=. --remote=upstream --push'
